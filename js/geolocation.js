@@ -15,9 +15,11 @@ const getGeoLocation = () => {
 
 const success = (coordinates) => {
     const { latitude, longitude } = coordinates.coords
-    console.log(`${latitude},${longitude}`);
+    return(`${latitude},${longitude}`);
 }
 
 const failure = (failure) => {
-    console.log('error, could not access location data');
+    return('error, could not access location data');
 }
+
+export { getGeoLocation };

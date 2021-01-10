@@ -52,4 +52,5 @@ header {
     font-family: 'Oswald', sans-serif;
     border-style: none;
     color: white;
+    cursor: pointer;
 }
