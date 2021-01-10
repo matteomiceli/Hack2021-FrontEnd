@@ -70,7 +70,7 @@ body {
 
 .head-honcho {
     position: relative;
-    top: 400px;
+    /* top: 400px; Where a map would go */
     justify-content: space-around;
 }
 
