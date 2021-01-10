@@ -47,10 +47,11 @@ header {
     border-radius: 5px;
     font-size: 1.1rem;
     position: relative;
-    top: 360px;
+    top: 10px;
+    left: 100px;
     padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
     background: #ff5619;
     font-family: 'Oswald', sans-serif;
     border-style: none;
@@ -75,23 +76,29 @@ body {
 
 
 .container1 {
-    border: 4px solid darkblue;
+
     display: flex;
     justify-content: space-evenly;
+    border-top: solid lightgrey;
+    border-bottom: solid lightgray;
 
 
 }
 
 .container2 {
-    border: 4px solid darkblue;
     display: flex;
     justify-content: space-evenly;
+
+    border-bottom: solid lightgray;
+
 }
 
 .container3 {
-    border: 4px solid darkblue;
     display: flex;
     justify-content: space-evenly;
+
+    border-bottom: solid lightgray;
+
 }
 
 .avatar {
@@ -99,4 +106,6 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    position: relative;
+    top: 20px;
   }

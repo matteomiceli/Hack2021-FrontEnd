@@ -28,14 +28,15 @@ header {
     height: 30px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 0 0;
+}
+
 .btn-white {
     border-radius: 5px;
     font-size: 1.1rem;
-    position: relative;
-    top: 350px;
-    padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
     background: white;
     font-family: 'Oswald', sans-serif;
     border-style: none;
@@ -46,7 +47,7 @@ header {
 .btn-orange {
     border-radius: 5px;
     font-size: 1.1rem;
-    padding: 10px;
+    padding: 15px 40px;
     background: #ff5619;
     font-family: 'Oswald', sans-serif;
     border-style: none;
